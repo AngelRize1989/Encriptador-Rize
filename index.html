@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de texto - Disciple</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="imagenes/rayoIcono.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="imagenes/Dva-Logo.png" alt="logo" />
+    </header>
+    <main>
+      <section class="Contenido">
+        <div class="input-Texto">
+          <textarea
+            placeholder="Ingrese el texto aqui"
+            class="inputTextoArea"
+          ></textarea>
+        </div>
+        <div class="showAlert">
+          <img src="imagenes/alerta.svg" alt="fondoImagen" />
+          <p class="textoWarning">Solo letras minusculas y sin acentos</p>
+        </div>
+        <div class="input-Botones">
+          <input type="button" class="btn-encriptar" value="Encriptar" />
+          <input
+            type="button"
+            class="btn-desencriptar"
+            value="Desencriptar"
+          />
+        </div>
+      </section>
+      <section class="Contenido2">
+        <div class="contenedorImagenFigura">
+          <img
+            class="figuraPersonajes"
+            src="imagenes/figuraDva.png"
+            alt="figuraPersonaje"
+          />
+        </div>
+        <div class="contenido-parrafo">
+          <h3>Ningún mensaje fue encontrado</h3>
+          <p>Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+        <div class="contenido-Boton">
+          <input type="button" class="btn-copiar" value="Copiar" />
+        </div>
+        <div class="Resultado">
+          <p class="texto-Final"></p>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
